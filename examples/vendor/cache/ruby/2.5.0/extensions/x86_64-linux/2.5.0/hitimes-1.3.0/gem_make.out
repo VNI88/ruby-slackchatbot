@@ -1,0 +1,21 @@
+current directory: /home/vinicius/Documentos/Cloudwalk/ruby-slackchatbot/examples/vendor/cache/ruby/2.5.0/gems/hitimes-1.3.0/ext/hitimes/c
+/usr/share/rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20181203-16224-1gwl92h.rb extconf.rb
+checking for clock_gettime() in -lrt... yes
+creating Makefile
+
+current directory: /home/vinicius/Documentos/Cloudwalk/ruby-slackchatbot/examples/vendor/cache/ruby/2.5.0/gems/hitimes-1.3.0/ext/hitimes/c
+make "DESTDIR=" clean
+
+current directory: /home/vinicius/Documentos/Cloudwalk/ruby-slackchatbot/examples/vendor/cache/ruby/2.5.0/gems/hitimes-1.3.0/ext/hitimes/c
+make "DESTDIR="
+compiling hitimes.c
+compiling hitimes_instant_clock_gettime.c
+compiling hitimes_instant_osx.c
+compiling hitimes_instant_windows.c
+compiling hitimes_interval.c
+compiling hitimes_stats.c
+linking shared-object hitimes/2.5/hitimes.so
+
+current directory: /home/vinicius/Documentos/Cloudwalk/ruby-slackchatbot/examples/vendor/cache/ruby/2.5.0/gems/hitimes-1.3.0/ext/hitimes/c
+make "DESTDIR=" install
+/usr/bin/install -m 0755 hitimes.so ./.gem.20181203-16224-11i5o3/hitimes/2.5
