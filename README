@@ -1,0 +1,11 @@
+Here is guide about the use of this slackchatbot built with Ruby. Please, follow the steps down below, after clone this repository to your machine:
+1. Open your terminal;
+2. Open the cloned repository;
+3. Install 'rvm' - learn how to install correctly here at https://rvm.io/rvm/install ;
+4. Install the ruby 2.2.0, type 'rvm install ruby 2.2.0';
+5. Type 'gem install bundle';
+6. Type 'bundle install';
+
+On slack, add this app - Click on Browse Apps option next the word Apps in the navigationbar -Look for vini and add.
+
+Backing to the terminal use your slack API token with the command SLACK_API_TOKEN=... bundle exec ruby pongbot.rb .Fill the '...' with the token.
